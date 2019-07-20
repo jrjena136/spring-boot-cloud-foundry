@@ -1,0 +1,6 @@
+applications:
+- name: Greeting-APP
+  memory: 950M
+  instances: 1
+  path: target/spring-boot-cloud-foundry.jar
+domain: cfapps.io
